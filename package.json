@@ -1,0 +1,19 @@
+{
+  "name": "zealynotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.21.0",
+    "dotenv": "^18.0.9",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
